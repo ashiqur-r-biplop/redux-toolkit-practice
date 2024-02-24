@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import Home from "./Pages/Home";
 
 const App = () => {
   return (
     <>
-      <h1 className='bg-purple-400 text-2xl'> Redux </h1>
+      <Home />
     </>
   );
 };
